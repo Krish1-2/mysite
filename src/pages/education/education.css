@@ -1,0 +1,76 @@
+.Maindiv{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    /* background-image: linear-gradient(30deg,#002868,#66a0ff); */
+}
+
+.Mainedu{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(30deg,#011b44,#66a0ff);
+    /* display: flexbox;
+    justify-content: space-evenly; */
+    display: flex;
+  flex-wrap: wrap;
+    padding: 40px;
+}
+
+#change1{
+    color: #c8baff;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    background-color:#002B5B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+
+#change2{
+    font-size: 25px;
+    color: #c8baff;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    background-color:#002B5B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+
+#change3{
+    font-size: 25px;
+    color: #c8baff;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    background-color:#002B5B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.Skills{
+    position: absolute;
+    top:300px;
+    
+}
+
+.Skillpic{
+    display: flexbox;
+    justify-content: baseline;
+    
+}
+
+.k{ font-size: 30px;
+    color: #00bc8a;
+}

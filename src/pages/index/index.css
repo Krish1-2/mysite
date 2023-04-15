@@ -1,0 +1,92 @@
+.pic{
+    background-color: aqua;
+    width: 350px;
+    height:500px;
+    border-radius: 50%;
+    display:block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.my-img{
+    display: inline-block;
+    width: 400px;
+    height:550px;
+    z-index: 10 !important;
+  }
+
+.Math{
+    background-color: #74E800;
+    width: 300px;
+    height:300px;
+    position: relative;
+    bottom:500px;
+    left: 50px;
+    z-index: 1;
+    }
+    
+    .pic1{
+        width: 150px;
+        height:150px;
+        display:block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+        
+    }
+
+    .pos1{
+        position: relative;
+        left: 50px;
+        width: 150px;
+        height:150px;
+    }
+    .pos2{
+        position: relative;
+        bottom: 40px;
+        background-color: #000000;
+    }
+.head{
+    background-image: url('C:\Users\krish\OneDrive\Desktop\mysite\my-app\public\images\bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+      position: relative;  
+     /* left:100px; */
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+ h1{
+    font-size: 40px;
+    color:#62CDFF;
+ } 
+
+ p{
+ font-size: 25px;
+ padding: 20px;
+ font-size: 20px;
+ }
+
+.about{
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    /* bottom: 100px; */
+    /* left:300px;  */
+    text-align: center;
+    font-family: 'Noto Serif';
+    font-weight: bold;
+    color: #C9EEFF;
+    width: 800px;
+    height:700px;
+}
+  
+
+.fadein{
+    opacity: 0;
+    transform: opacity 250ms ease-in;
+}
+
+.fadein.appear{
+    opacity: 1;
+}

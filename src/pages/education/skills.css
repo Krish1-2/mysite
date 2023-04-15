@@ -1,0 +1,29 @@
+.imgdiv{
+ width: 250px;
+ height: 250px;
+ border-width: 3px;   
+ background-color: black;
+ padding: 8px;
+}
+
+.mainImgDiv{
+    height: 260px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.imgSkill{
+    width: 230px;
+    height: 230px;
+}
+
+.Skillimport{
+    width: 100%;
+}
+
+.skillsh1{
+    text-shadow: 0 0 2px #5c08a1, 0 0 3px #0a0a2f;
+    color: #00bc8a;
+    font-size: 60px;
+    margin: 20px;
+}

@@ -1,0 +1,58 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 350px;
+    left:15%;
+    background-color:#00235B;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+.head1{
+    padding-top:30px ;
+    background-image: linear-gradient(30deg,#002868,#66a0ff);
+}
+
+.img-box{
+    display: block;
+ position: relative;
+ top: 50px;
+ left:50px;
+width: 300px;
+height: 250px;
+background-color: black;
+border-radius: 10%;
+}
+
+.space1{
+    height: 100px;
+}
+
+.text{
+    position: relative;
+    top: 50px;
+}
+
+.para{
+    width: 700px;
+    color: #97DEFF;
+}
+
+.play{
+    text-align: center;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+}
+
+.pic{
+    width: 295px;
+height: 245px;
+border-radius: 10%;
+}
